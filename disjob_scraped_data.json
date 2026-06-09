@@ -1,0 +1,36 @@
+{
+  "home": {
+    "titulo": "disJob - El Portal de Empleo para Personas con disCapacidad",
+    "fragmentoTexto": "ACCESO EMPRESA ACCESO CANDIDATOS\nToggle navigation\nBusco empleo de...\nTrabajar desde casa\nCategorías\nSector...\nAdministración de empresas\nAdministración Pública\nArte y Decoración\nAtención a clientes\nAudiovisual\nCalidad, producción e I+D\nComercial y ventas\nCompras, logística y almacén\nDiseño y artes gráficas\nEducación y formación\nFinanzas y banca\nInformática y telecomunicaciones\nIngenieros y técnicos\nInmobiliario y construcción\nLegal\nMarketing y comunicación\nOtros\nProfesiones, artes y oficios\nPublicidad y Relaciones Públiccas\nRecursos humanos\nSanidad y salud\nTurismo y restauración\nProvincia\nProvincia...\nA Coruña\nAlacant\nAlbacete\nAlmeria\nAraba\nAsturias\nAvila\nBadajoz\nBaleares\nBarcelona\nBizkaia\nBurgos\nCaceres\nCadiz\nCantabria\nCastello\nCeuta\nCiudad Real\nCordoba\nCuenca\nGirona\nGranada\nGuadalajara\nGuipuzkoa\nHuelva\nHuesca\nJaen\nLa Rioja\nLas Palmas\nLeon\nLleida\nLugo\nMadrid\nMalaga\nMelilla\nMurcia\nNavarra\nOurense\nPalencia\nPontevedra\nSalamanca\nSegovia\nSevilla\nSin especificar\nSoria\nTarragona\nTenerife\nTe"
+  },
+  "menuMap": [
+    {
+      "seccion": "",
+      "url": "home.php"
+    },
+    {
+      "seccion": "",
+      "url": "https://www.facebook.com/pages/disJobcom/103709723080692"
+    },
+    {
+      "seccion": "",
+      "url": "https://twitter.com/disJob"
+    },
+    {
+      "seccion": "",
+      "url": "http://www.linkedin.com/company/disjob"
+    },
+    {
+      "seccion": "Ofertas",
+      "url": "/ofertas.php"
+    },
+    {
+      "seccion": "Notícias",
+      "url": "/noticias.php"
+    },
+    {
+      "seccion": "Conócenos",
+      "url": "/quienes_somos.php"
+    }
+  ]
+}
