@@ -20,7 +20,7 @@ const PAGE_WAIT_MS = 1500;
 const ALLOWED_HOST = 'www.disjob.com';
 
 // Páginas a excluir para no romper la sesión ni hacer acciones irreversibles
-const SKIP_URLS = ['sortir.php', 'baja_servicio.php', 'logout', 'salir'];
+const SKIP_URLS = ['sortir.php', 'baja_servicio.php', 'logout', 'salir', 'download_cv.php'];
 
 // Guardado automático cada N páginas
 const AUTOSAVE_EVERY = 5;
@@ -293,35 +293,24 @@ async function loginCandidato(page) {
   return loggedIn;
 }
 
-// ─── MAIN ─────────────────────────────────────────────────────────────────────
-(async () => {
-  ensureOutputDir();
-
-  const networkTraffic = [];
-  const navigationLog  = [];
-  const visited        = new Set();
-  let   requestCounter = 0;
-
-  log('🚀 Iniciando scraper de candidato — Disjob');
-
-  const browser = await puppeteer.launch({
+// ─── HELPERS BROWSER ─────────────────────────────────────────────────────────
+function launchBrowserArgs() {
+  return {
     headless: false,
     defaultViewport: null,
     args: ['--start-maximized', '--no-sandbox', '--disable-setuid-sandbox',
-           '--disable-web-security', '--disable-features=IsolateOrigins,site-per-process']
-  });
+           '--disable-web-security', '--disable-features=IsolateOrigins,site-per-process',
+           '--disable-popup-blocking']
+  };
+}
 
-  let [page] = await browser.pages();
-  const requestMap = new WeakMap();
-
-  // ── Interceptar tráfico ───────────────────────────────────────────────────
-  await page.setRequestInterception(true);
-
+function setupPageHandlers(page, networkTraffic, requestMap, counter) {
+  page.setRequestInterception(true);
   page.on('request', (req) => {
     const rt = req.resourceType();
     if (['xhr', 'fetch', 'document', 'script'].includes(rt)) {
       const entry = {
-        id: `req_${++requestCounter}`,
+        id: `req_${++counter.n}`,
         url: req.url(), method: req.method(),
         headers: req.headers(), payload: req.postData() ?? null,
         resourceType: rt, timestamp: new Date().toISOString(), response: null
@@ -331,7 +320,6 @@ async function loginCandidato(page) {
     }
     req.continue();
   });
-
   page.on('response', async (res) => {
     const req = res.request();
     const rt  = req.resourceType();
@@ -350,19 +338,43 @@ async function loginCandidato(page) {
       }
     } catch (e) { entry.response.body = `[Error: ${e.message}]`; }
   });
+}
+
+// ─── MAIN ─────────────────────────────────────────────────────────────────────
+(async () => {
+  ensureOutputDir();
+
+  const networkTraffic = [];
+  const navigationLog  = [];
+  const visited        = new Set();
+  const requestMap     = new WeakMap();
+  const counter        = { n: 0 };
+
+  log('🚀 Iniciando scraper de candidato — Disjob');
+
+  let browser = await puppeteer.launch(launchBrowserArgs());
+  let [page]  = await browser.pages();
+  setupPageHandlers(page, networkTraffic, requestMap, counter);
 
   // ── Login ─────────────────────────────────────────────────────────────────
-  const loggedIn = await loginCandidato(page);
+  await loginCandidato(page);
 
-  // Cola inicial: página actual post-login + páginas conocidas del candidato
+  // Cola inicial: páginas candidato + formularios de acción clave
   const candidatePages = [
-    page.url(),
     'https://www.disjob.com/home_cand.php',
-    'https://www.disjob.com/ofertas_cand.php',
-    'https://www.disjob.com/candidaturas.php',
-    'https://www.disjob.com/cv_completo.php',
+    'https://www.disjob.com/candidaturas.php',       // baja de postulación
+    'https://www.disjob.com/cv_completo.php',         // actualizar perfil
+    'https://www.disjob.com/ofertas_cand.php',        // buscar ofertas
     'https://www.disjob.com/cambio_pwd.php',
     'https://www.disjob.com/contacta.php',
+    // Páginas de oferta individuales — formulario de postulación
+    'https://www.disjob.com/info_oferta.php?Up=EJFMF',
+    'https://www.disjob.com/info_oferta.php?Up=EJKDM',
+    'https://www.disjob.com/info_oferta.php?Up=EJDLJ',
+    'https://www.disjob.com/info_oferta.php?Up=EJEJE',
+    'https://www.disjob.com/info_oferta.php?Up=EJKIM',
+    'https://www.disjob.com/info_oferta.php?Up=EJKMM',
+    // Páginas informativas
     'https://www.disjob.com/noticias.php',
     'https://www.disjob.com/quienes_somos.php',
     'https://www.disjob.com/politica_privacidad.php',
@@ -370,6 +382,7 @@ async function loginCandidato(page) {
     'https://www.disjob.com/recordatorio.php',
     'https://www.disjob.com/unete.php',
     'https://www.disjob.com/ofertas.php',
+    'https://www.disjob.com/colaboradores.php',
   ];
 
   const queue = [...new Set(candidatePages.map(u => normalizeUrl(u, START_URL)).filter(Boolean))];
@@ -379,7 +392,6 @@ async function loginCandidato(page) {
     const url = queue.shift();
     if (!url || visited.has(url)) continue;
 
-    // Saltar URLs peligrosas
     if (SKIP_URLS.some(s => url.includes(s))) {
       log(`   ⏭️  Saltando (protegida): ${url}`);
       continue;
@@ -392,7 +404,7 @@ async function loginCandidato(page) {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: NAV_TIMEOUT });
       await delay(PAGE_WAIT_MS);
 
-      // Verificar que seguimos autenticados (solo aplica en www.disjob.com)
+      // Verificar sesión activa
       const currentUrl = page.url();
       if (currentUrl.includes('www.disjob.com') && currentUrl.includes('home.php') && !currentUrl.includes('home_cand')) {
         log('   🔄 Sesión expirada — reloginando...');
@@ -423,46 +435,25 @@ async function loginCandidato(page) {
       }
 
     } catch (err) {
-      log(`   ⚠️  Error: ${err.message}`);
+      log(`   ⚠️  Error en ${url}: ${err.message}`);
       navigationLog.push({ url, error: err.message, timestamp: new Date().toISOString() });
 
-      // Si el frame se desconectó, reemplazar la página
-      if (err.message.includes('detached') || err.message.includes('Target closed') || err.message.includes('Session closed')) {
-        log('   🔧 Frame detachado — abriendo nueva página...');
+      // Si el frame/browser se desconectó → restart completo del browser
+      const isFatal = err.message.includes('detached') || err.message.includes('Target closed')
+                   || err.message.includes('Session closed') || err.message.includes('Protocol error');
+      if (isFatal) {
+        log('   🔧 Browser comprometido — reiniciando browser completo...');
+        try { await browser.close(); } catch {}
+        await delay(2000);
         try {
-          page = await browser.newPage();
-          await page.setRequestInterception(true);
-          page.on('request', (req) => {
-            const rt = req.resourceType();
-            if (['xhr', 'fetch', 'document', 'script'].includes(rt)) {
-              const entry = {
-                id: `req_${++requestCounter}`, url: req.url(), method: req.method(),
-                headers: req.headers(), payload: req.postData() ?? null,
-                resourceType: rt, timestamp: new Date().toISOString(), response: null
-              };
-              requestMap.set(req, entry);
-              networkTraffic.push(entry);
-            }
-            req.continue();
-          });
-          page.on('response', async (res) => {
-            const req = res.request();
-            const rt  = req.resourceType();
-            if (!['xhr', 'fetch', 'document'].includes(rt)) return;
-            const entry = requestMap.get(req);
-            if (!entry) return;
-            entry.response = { status: res.status(), headers: res.headers(), body: null };
-            try {
-              if (res.status() >= 200 && res.status() < 300) {
-                const text = await Promise.race([res.text(), new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 8000))]);
-                try { entry.response.body = JSON.parse(text); } catch { entry.response.body = text.substring(0, 15000); }
-              }
-            } catch (e) { entry.response.body = `[Error: ${e.message}]`; }
-          });
-          // Volver a loguear en la nueva página
+          browser = await puppeteer.launch(launchBrowserArgs());
+          [page]  = await browser.pages();
+          setupPageHandlers(page, networkTraffic, requestMap, counter);
           await loginCandidato(page);
-        } catch (pageErr) {
-          log(`   ❌ No se pudo recuperar la página: ${pageErr.message}`);
+          log('   ✅ Browser reiniciado y sesión restaurada');
+        } catch (restartErr) {
+          log(`   ❌ No se pudo reiniciar el browser: ${restartErr.message}`);
+          break;
         }
       }
     }
