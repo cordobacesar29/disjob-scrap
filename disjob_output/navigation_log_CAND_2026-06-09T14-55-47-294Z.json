@@ -1,0 +1,4891 @@
+[
+  {
+    "url": "https://www.disjob.com/home_cand.php",
+    "title": "disJob - El Portal de Empleo para Personas con disCapacidad - Inicio candidato",
+    "metaDesc": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad",
+    "metas": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad"
+      },
+      {
+        "name": "author",
+        "content": "disjob"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Hola César!"
+      }
+    ],
+    "navItems": [
+      {
+        "text": "",
+        "href": "home.php"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob"
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob"
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php"
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php"
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "#",
+        "title": null,
+        "target": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(false);return false;",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "aquí",
+        "href": "politica_cookies.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "HOLA CÉSAR!",
+        "href": "javascript:void(0);",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Cerrar sesión",
+        "href": "sortir.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "sortir",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "home.php",
+        "title": "Logo, pulsar para volver al inicio",
+        "target": null,
+        "onclick": null,
+        "classes": "navbar-brand",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692",
+        "title": "Enlace Facebook Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob",
+        "title": "Enlace Twitter Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob",
+        "title": "Enlace Linkedin Disjob",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TUS CANDIDATURAS",
+        "href": "candidaturas.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU CURRICULUM",
+        "href": "cv_completo.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "DATOS ACCESO",
+        "href": "cambio_pwd.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "BAJA DEL SERVICIO",
+        "href": "baja_servicio.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Descargar",
+        "href": "/includes/funcions/download_cv.php?i=FJIJKG",
+        "title": "Descargar CV",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONTACTO",
+        "href": "contacta.php",
+        "title": "Acceso al formulario de contacto",
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.w3.org/WAI/WCAG2AAA-Conformance",
+        "title": "Explanation of WCAG 2.0 Level Triple-A Conformance",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "COLABORAN CON NOSOTROS",
+        "href": "colaboradores.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Madrid\"",
+        "href": "http://es.jooble.org/trabajo/Madrid?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Barcelona\".",
+        "href": "http://es.jooble.org/trabajo/Barcelona?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      }
+    ],
+    "forms": [
+      {
+        "id": "acces",
+        "name": "alta",
+        "action": "home_cand.php",
+        "method": "POST",
+        "enctype": "multipart/form-data",
+        "onsubmit": null,
+        "classes": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "13971fc9573a8f5aa7233377df23ff3d",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "idioma",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "cast",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "idpas",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "5",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "tipusEnviament",
+            "id": "tipusEnviament",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": true,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "0",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "cv_cand",
+            "id": "OTCurriculum",
+            "type": "file",
+            "placeholder": null,
+            "label": "*CURRÍCULUM:",
+            "required": true,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": "ComprovaFitxer(this,'arxiu')",
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": null,
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": "return enviar(1);",
+            "classes": "boto_blau",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "TEXTAREA",
+            "name": "TextCvCand",
+            "id": "_TTextCVCand",
+            "type": "textarea",
+            "placeholder": null,
+            "label": "*TEXTO CV:",
+            "required": false,
+            "readonly": false,
+            "disabled": true,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": null,
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": "return enviar(2);",
+            "classes": "boto_blau",
+            "dataAttrs": {}
+          }
+        ],
+        "externalSubmitBtns": []
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "type": "button",
+        "name": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(true);return false;",
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle navigation",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "navbar-toggle",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "collapse",
+          "data-target": ".navbar-ex1-collapse"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Adjuntar",
+        "type": "button",
+        "name": null,
+        "onclick": "return enviar(1);",
+        "classes": "boto_blau",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Escanear",
+        "type": "button",
+        "name": null,
+        "onclick": "return enviar(2);",
+        "classes": "boto_blau",
+        "href": null,
+        "dataAttrs": {}
+      }
+    ],
+    "inlineScripts": [],
+    "externalScripts": [
+      "/includes/js/galetes.js",
+      "/assets/plugins/jquery-1.10.2.min.js",
+      "/assets/plugins/jquery-migrate-1.2.1.min.js",
+      "/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "/assets/plugins/flexslider/jquery.flexslider-min.js",
+      "/assets/plugins/bxslider/jquery.bxslider.js",
+      "/assets/plugins/back-to-top.js",
+      "/assets/plugins/jquery.parallax.js",
+      "/assets/plugins/image-hover/js/modernizr.js",
+      "/assets/plugins/image-hover/js/touch.js",
+      "/assets/js/chosen/chosen.jquery.min.js",
+      "/assets/js/app.js?v=1.0"
+    ],
+    "alerts": [],
+    "bodyClasses": ""
+  },
+  {
+    "url": "https://www.disjob.com/ofertas_cand.php",
+    "title": "disJob - El Portal de Empleo para Personas con disCapacidad - Ofertas candidato",
+    "metaDesc": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad",
+    "metas": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad"
+      },
+      {
+        "name": "author",
+        "content": "disjob"
+      }
+    ],
+    "headings": [],
+    "navItems": [
+      {
+        "text": "",
+        "href": "home.php"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob"
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob"
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php"
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php"
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "#",
+        "title": null,
+        "target": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(false);return false;",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "aquí",
+        "href": "politica_cookies.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "HOLA CÉSAR!",
+        "href": "javascript:void(0);",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Cerrar sesión",
+        "href": "sortir.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "sortir",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "home.php",
+        "title": "Logo, pulsar para volver al inicio",
+        "target": null,
+        "onclick": null,
+        "classes": "navbar-brand",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692",
+        "title": "Enlace Facebook Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob",
+        "title": "Enlace Twitter Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob",
+        "title": "Enlace Linkedin Disjob",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TUS CANDIDATURAS",
+        "href": "candidaturas.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU CURRICULUM",
+        "href": "cv_completo.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "DATOS ACCESO",
+        "href": "cambio_pwd.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "BAJA DEL SERVICIO",
+        "href": "baja_servicio.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "H&S Manager",
+        "href": "info_oferta.php?Up=EJFMF",
+        "title": "H&S Manager",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "EMPLEADOS HOR. LAB. SING. TURNO 1 CENTRO 8753 STORE DOS HERMANAS",
+        "href": "info_oferta.php?Up=EJKDM",
+        "title": "EMPLEADOS HOR. LAB. SING. TURNO 1 CENTRO 8753 STORE DOS HERMANAS",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Especialista en Vídeo y Contenidos WEB-FNAC.es",
+        "href": "info_oferta.php?Up=EJDLJ",
+        "title": "Especialista en Vídeo y Contenidos WEB-FNAC.es",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Agente COMAT",
+        "href": "info_oferta.php?Up=EJEJE",
+        "title": "Agente COMAT",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Jefe/a obra de edificación",
+        "href": "info_oferta.php?Up=EJKIM",
+        "title": "Jefe/a obra de edificación",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "ASSOCIATE (GESTOR/A) EN FINANCIAL INSTITUTIONS - BANKS (CIB) MADRID/BARCELONA",
+        "href": "info_oferta.php?Up=EJKMM",
+        "title": "ASSOCIATE (GESTOR/A) EN FINANCIAL INSTITUTIONS - BANKS (CIB) MADRID/BARCELONA",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Técnico/a de Soporte CAU",
+        "href": "info_oferta.php?Up=EIMMD",
+        "title": "Técnico/a de Soporte CAU",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "GESTION DE CLIENTES I CARTERA BANCA PERSONAL BANCA PARTICULARES LERMA",
+        "href": "info_oferta.php?Up=EJGFI",
+        "title": "GESTION DE CLIENTES I CARTERA BANCA PERSONAL BANCA PARTICULARES LERMA",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Dependiente / a Tienda Barcelona - Sales Assistant Barcelona",
+        "href": "info_oferta.php?Up=EIIEG",
+        "title": "Dependiente / a Tienda Barcelona - Sales Assistant Barcelona ",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Soldador",
+        "href": "info_oferta.php?Up=EJLEM",
+        "title": "Soldador",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Oficial 1ª / 2ª Electricista",
+        "href": "info_oferta.php?Up=EJFKH",
+        "title": "Oficial 1ª / 2ª Electricista",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "GESTION DE CLIENTES II GESTOR DE NEGOCIOS STORE ESTELLA-LIZARRA (3694) HOR. LAB. SING. TURNO 1",
+        "href": "info_oferta.php?Up=EJJMK",
+        "title": "GESTION DE CLIENTES II GESTOR DE NEGOCIOS STORE ESTELLA-LIZARRA (3694) HOR. LAB. SING. TURNO 1",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Auxiliar Administrativa /o - Departamento Comercial - Atención al Cliente - Gestión documental",
+        "href": "info_oferta.php?Up=EJEDF",
+        "title": "Auxiliar Administrativa /o - Departamento Comercial - Atención al Cliente - Gestión documental",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Técnico/a de Calidad",
+        "href": "info_oferta.php?Up=EJJGE",
+        "title": "Técnico/a de Calidad",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "GESTION DE CLIENTES II CARTERA PREMIER HLS T1 (L y X) CENTRO 4727 - STORE 1 DE MAYO-PTO ROSARIO",
+        "href": "info_oferta.php?Up=EJKKH",
+        "title": "GESTION DE CLIENTES II CARTERA PREMIER HLS T1 (L y X) CENTRO 4727 - STORE 1 DE MAYO-PTO ROSARIO",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "2",
+        "href": "#peu",
+        "title": "Página 2",
+        "target": null,
+        "onclick": "reenviar(2,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "3",
+        "href": "#peu",
+        "title": "Página 3",
+        "target": null,
+        "onclick": "reenviar(3,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "4",
+        "href": "#peu",
+        "title": "Página 4",
+        "target": null,
+        "onclick": "reenviar(4,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "5",
+        "href": "#peu",
+        "title": "Página 5",
+        "target": null,
+        "onclick": "reenviar(5,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "6",
+        "href": "#peu",
+        "title": "Página 6",
+        "target": null,
+        "onclick": "reenviar(6,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "7",
+        "href": "#peu",
+        "title": "Página 7",
+        "target": null,
+        "onclick": "reenviar(7,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "8",
+        "href": "#peu",
+        "title": "Página 8",
+        "target": null,
+        "onclick": "reenviar(8,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "9",
+        "href": "#peu",
+        "title": "Página 9",
+        "target": null,
+        "onclick": "reenviar(9,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "10",
+        "href": "#peu",
+        "title": "Página 10",
+        "target": null,
+        "onclick": "reenviar(10,3)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Siguiente >>",
+        "href": "#peu",
+        "title": "Siguiente",
+        "target": null,
+        "onclick": "reenviar(11,1)",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONTACTO",
+        "href": "contacta.php",
+        "title": "Acceso al formulario de contacto",
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.w3.org/WAI/WCAG2AAA-Conformance",
+        "title": "Explanation of WCAG 2.0 Level Triple-A Conformance",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "COLABORAN CON NOSOTROS",
+        "href": "colaboradores.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Madrid\"",
+        "href": "http://es.jooble.org/trabajo/Madrid?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Barcelona\".",
+        "href": "http://es.jooble.org/trabajo/Barcelona?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      }
+    ],
+    "forms": [
+      {
+        "id": "buscador_ofertas",
+        "name": null,
+        "action": "ofertas_cand.php",
+        "method": "POST",
+        "enctype": null,
+        "onsubmit": null,
+        "classes": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "eec99f80a36c86c36ee3ab2c22819c15",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "palabra_clave",
+            "id": "_TPalabra",
+            "type": "text",
+            "placeholder": null,
+            "label": "Busco empleo de...",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "55",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "TrabajarDesdeCasa_Ofer",
+            "id": "OBConformidad",
+            "type": "checkbox",
+            "placeholder": null,
+            "label": "Trabajar desde casa",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "idSector",
+            "id": "OCSector",
+            "type": "select",
+            "placeholder": null,
+            "label": "Categorías",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Sector...",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "Administración de empresas",
+                "selected": false
+              },
+              {
+                "value": "2",
+                "text": "Administración Pública",
+                "selected": false
+              },
+              {
+                "value": "21",
+                "text": "Arte y Decoración",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "Atención a clientes",
+                "selected": false
+              },
+              {
+                "value": "20",
+                "text": "Audiovisual",
+                "selected": false
+              },
+              {
+                "value": "4",
+                "text": "Calidad, producción e I+D",
+                "selected": false
+              },
+              {
+                "value": "5",
+                "text": "Comercial y ventas",
+                "selected": false
+              },
+              {
+                "value": "6",
+                "text": "Compras, logística y almacén",
+                "selected": false
+              },
+              {
+                "value": "7",
+                "text": "Diseño y artes gráficas",
+                "selected": false
+              },
+              {
+                "value": "8",
+                "text": "Educación y formación",
+                "selected": false
+              },
+              {
+                "value": "9",
+                "text": "Finanzas y banca",
+                "selected": false
+              },
+              {
+                "value": "10",
+                "text": "Informática y telecomunicaciones",
+                "selected": false
+              },
+              {
+                "value": "11",
+                "text": "Ingenieros y técnicos",
+                "selected": false
+              },
+              {
+                "value": "12",
+                "text": "Inmobiliario y construcción",
+                "selected": false
+              },
+              {
+                "value": "13",
+                "text": "Legal",
+                "selected": false
+              },
+              {
+                "value": "14",
+                "text": "Marketing y comunicación",
+                "selected": false
+              },
+              {
+                "value": "19",
+                "text": "Otros",
+                "selected": false
+              },
+              {
+                "value": "15",
+                "text": "Profesiones, artes y oficios",
+                "selected": false
+              },
+              {
+                "value": "22",
+                "text": "Publicidad y Relaciones Públiccas",
+                "selected": false
+              },
+              {
+                "value": "16",
+                "text": "Recursos humanos",
+                "selected": false
+              },
+              {
+                "value": "17",
+                "text": "Sanidad y salud",
+                "selected": false
+              },
+              {
+                "value": "18",
+                "text": "Turismo y restauración",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "SELECT",
+            "name": "idProvincia",
+            "id": "OCProvincia",
+            "type": "select",
+            "placeholder": null,
+            "label": "provincia",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Provincia...",
+                "selected": false
+              },
+              {
+                "value": "15",
+                "text": "A Coruña",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "Alacant",
+                "selected": false
+              },
+              {
+                "value": "2",
+                "text": "Albacete",
+                "selected": false
+              },
+              {
+                "value": "4",
+                "text": "Almeria",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "Araba",
+                "selected": false
+              },
+              {
+                "value": "33",
+                "text": "Asturias",
+                "selected": false
+              },
+              {
+                "value": "5",
+                "text": "Avila",
+                "selected": false
+              },
+              {
+                "value": "6",
+                "text": "Badajoz",
+                "selected": false
+              },
+              {
+                "value": "7",
+                "text": "Baleares",
+                "selected": false
+              },
+              {
+                "value": "8",
+                "text": "Barcelona",
+                "selected": false
+              },
+              {
+                "value": "48",
+                "text": "Bizkaia",
+                "selected": false
+              },
+              {
+                "value": "9",
+                "text": "Burgos",
+                "selected": false
+              },
+              {
+                "value": "10",
+                "text": "Caceres",
+                "selected": false
+              },
+              {
+                "value": "11",
+                "text": "Cadiz",
+                "selected": false
+              },
+              {
+                "value": "39",
+                "text": "Cantabria",
+                "selected": false
+              },
+              {
+                "value": "12",
+                "text": "Castello",
+                "selected": false
+              },
+              {
+                "value": "51",
+                "text": "Ceuta",
+                "selected": false
+              },
+              {
+                "value": "13",
+                "text": "Ciudad Real",
+                "selected": false
+              },
+              {
+                "value": "14",
+                "text": "Cordoba",
+                "selected": false
+              },
+              {
+                "value": "16",
+                "text": "Cuenca",
+                "selected": false
+              },
+              {
+                "value": "17",
+                "text": "Girona",
+                "selected": false
+              },
+              {
+                "value": "18",
+                "text": "Granada",
+                "selected": false
+              },
+              {
+                "value": "19",
+                "text": "Guadalajara",
+                "selected": false
+              },
+              {
+                "value": "20",
+                "text": "Guipuzkoa",
+                "selected": false
+              },
+              {
+                "value": "21",
+                "text": "Huelva",
+                "selected": false
+              },
+              {
+                "value": "22",
+                "text": "Huesca",
+                "selected": false
+              },
+              {
+                "value": "23",
+                "text": "Jaen",
+                "selected": false
+              },
+              {
+                "value": "26",
+                "text": "La Rioja",
+                "selected": false
+              },
+              {
+                "value": "35",
+                "text": "Las Palmas",
+                "selected": false
+              },
+              {
+                "value": "24",
+                "text": "Leon",
+                "selected": false
+              },
+              {
+                "value": "25",
+                "text": "Lleida",
+                "selected": false
+              },
+              {
+                "value": "27",
+                "text": "Lugo",
+                "selected": false
+              },
+              {
+                "value": "28",
+                "text": "Madrid",
+                "selected": false
+              },
+              {
+                "value": "29",
+                "text": "Malaga",
+                "selected": false
+              },
+              {
+                "value": "52",
+                "text": "Melilla",
+                "selected": false
+              },
+              {
+                "value": "30",
+                "text": "Murcia",
+                "selected": false
+              },
+              {
+                "value": "31",
+                "text": "Navarra",
+                "selected": false
+              },
+              {
+                "value": "32",
+                "text": "Ourense",
+                "selected": false
+              },
+              {
+                "value": "34",
+                "text": "Palencia",
+                "selected": false
+              },
+              {
+                "value": "36",
+                "text": "Pontevedra",
+                "selected": false
+              },
+              {
+                "value": "37",
+                "text": "Salamanca",
+                "selected": false
+              },
+              {
+                "value": "40",
+                "text": "Segovia",
+                "selected": false
+              },
+              {
+                "value": "41",
+                "text": "Sevilla",
+                "selected": false
+              },
+              {
+                "value": "53",
+                "text": "Sin especificar",
+                "selected": false
+              },
+              {
+                "value": "42",
+                "text": "Soria",
+                "selected": false
+              },
+              {
+                "value": "43",
+                "text": "Tarragona",
+                "selected": false
+              },
+              {
+                "value": "38",
+                "text": "Tenerife",
+                "selected": false
+              },
+              {
+                "value": "44",
+                "text": "Teruel",
+                "selected": false
+              },
+              {
+                "value": "45",
+                "text": "Toledo",
+                "selected": false
+              },
+              {
+                "value": "46",
+                "text": "Valencia",
+                "selected": false
+              },
+              {
+                "value": "47",
+                "text": "Valladolid",
+                "selected": false
+              },
+              {
+                "value": "49",
+                "text": "Zamora",
+                "selected": false
+              },
+              {
+                "value": "50",
+                "text": "Zaragoza",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "BUTTON",
+            "name": null,
+            "id": null,
+            "type": "submit",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "btn-u rounded",
+            "dataAttrs": {}
+          }
+        ],
+        "externalSubmitBtns": []
+      },
+      {
+        "id": null,
+        "name": "pagina",
+        "action": "",
+        "method": "POST",
+        "enctype": null,
+        "onsubmit": null,
+        "classes": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "eec99f80a36c86c36ee3ab2c22819c15",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          }
+        ],
+        "externalSubmitBtns": []
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "type": "button",
+        "name": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(true);return false;",
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle navigation",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "navbar-toggle",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "collapse",
+          "data-target": ".navbar-ex1-collapse"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Buscar Ofertas",
+        "type": "submit",
+        "name": null,
+        "onclick": null,
+        "classes": "btn-u rounded",
+        "href": null,
+        "dataAttrs": {}
+      }
+    ],
+    "inlineScripts": [],
+    "externalScripts": [
+      "includes/js/validaform.js",
+      "/includes/js/galetes.js",
+      "/assets/plugins/jquery-1.10.2.min.js",
+      "/assets/plugins/jquery-migrate-1.2.1.min.js",
+      "/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "/assets/plugins/flexslider/jquery.flexslider-min.js",
+      "/assets/plugins/bxslider/jquery.bxslider.js",
+      "/assets/plugins/back-to-top.js",
+      "/assets/plugins/jquery.parallax.js",
+      "/assets/plugins/image-hover/js/modernizr.js",
+      "/assets/plugins/image-hover/js/touch.js",
+      "/assets/js/chosen/chosen.jquery.min.js",
+      "/assets/js/app.js?v=1.0"
+    ],
+    "alerts": [],
+    "bodyClasses": ""
+  },
+  {
+    "url": "https://www.disjob.com/candidaturas.php",
+    "title": "disJob - El Portal de Empleo para Personas con disCapacidad - Tus candidaturas",
+    "metaDesc": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad",
+    "metas": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad"
+      },
+      {
+        "name": "author",
+        "content": "disjob"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Tus Candidaturas activas"
+      }
+    ],
+    "navItems": [
+      {
+        "text": "",
+        "href": "home.php"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob"
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob"
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php"
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php"
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "#",
+        "title": null,
+        "target": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(false);return false;",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "aquí",
+        "href": "politica_cookies.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "HOLA CÉSAR!",
+        "href": "javascript:void(0);",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Cerrar sesión",
+        "href": "sortir.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "sortir",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "home.php",
+        "title": "Logo, pulsar para volver al inicio",
+        "target": null,
+        "onclick": null,
+        "classes": "navbar-brand",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692",
+        "title": "Enlace Facebook Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob",
+        "title": "Enlace Twitter Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob",
+        "title": "Enlace Linkedin Disjob",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TUS CANDIDATURAS",
+        "href": "candidaturas.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU CURRICULUM",
+        "href": "cv_completo.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "DATOS ACCESO",
+        "href": "cambio_pwd.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "BAJA DEL SERVICIO",
+        "href": "baja_servicio.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONTACTO",
+        "href": "contacta.php",
+        "title": "Acceso al formulario de contacto",
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.w3.org/WAI/WCAG2AAA-Conformance",
+        "title": "Explanation of WCAG 2.0 Level Triple-A Conformance",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "COLABORAN CON NOSOTROS",
+        "href": "colaboradores.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Madrid\"",
+        "href": "http://es.jooble.org/trabajo/Madrid?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Barcelona\".",
+        "href": "http://es.jooble.org/trabajo/Barcelona?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      }
+    ],
+    "forms": [],
+    "buttons": [
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "type": "button",
+        "name": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(true);return false;",
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle navigation",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "navbar-toggle",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "collapse",
+          "data-target": ".navbar-ex1-collapse"
+        }
+      }
+    ],
+    "inlineScripts": [],
+    "externalScripts": [
+      "includes/js/validaform.js",
+      "/includes/js/galetes.js",
+      "/assets/plugins/jquery-1.10.2.min.js",
+      "/assets/plugins/jquery-migrate-1.2.1.min.js",
+      "/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "/assets/plugins/flexslider/jquery.flexslider-min.js",
+      "/assets/plugins/bxslider/jquery.bxslider.js",
+      "/assets/plugins/back-to-top.js",
+      "/assets/plugins/jquery.parallax.js",
+      "/assets/plugins/image-hover/js/modernizr.js",
+      "/assets/plugins/image-hover/js/touch.js",
+      "/assets/js/chosen/chosen.jquery.min.js",
+      "/assets/js/app.js?v=1.0"
+    ],
+    "alerts": [],
+    "bodyClasses": ""
+  },
+  {
+    "url": "https://www.disjob.com/cv_completo.php",
+    "title": "disJob - El Portal de Empleo para Personas con disCapacidad - CV Completo",
+    "metaDesc": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad",
+    "metas": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad"
+      },
+      {
+        "name": "author",
+        "content": "disjob"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "CV COMPLETO"
+      }
+    ],
+    "navItems": [
+      {
+        "text": "",
+        "href": "home.php"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob"
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob"
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php"
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php"
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php"
+      },
+      {
+        "text": "DATOS PERSONALES",
+        "href": "cv_completo.php?Pes=0"
+      },
+      {
+        "text": "ESTUDIOS",
+        "href": "cv_completo.php?Pes=1"
+      },
+      {
+        "text": "EXPERIENCIA",
+        "href": "cv_completo.php?Pes=2"
+      },
+      {
+        "text": "TU FUTURO",
+        "href": "cv_completo.php?Pes=3"
+      },
+      {
+        "text": "TU DÍA A DÍA",
+        "href": "cv_completo.php?Pes=4"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "#",
+        "title": null,
+        "target": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(false);return false;",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "aquí",
+        "href": "politica_cookies.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "HOLA CÉSAR!",
+        "href": "javascript:void(0);",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Cerrar sesión",
+        "href": "sortir.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "sortir",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "home.php",
+        "title": "Logo, pulsar para volver al inicio",
+        "target": null,
+        "onclick": null,
+        "classes": "navbar-brand",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692",
+        "title": "Enlace Facebook Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob",
+        "title": "Enlace Twitter Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob",
+        "title": "Enlace Linkedin Disjob",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TUS CANDIDATURAS",
+        "href": "candidaturas.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU CURRICULUM",
+        "href": "cv_completo.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "DATOS ACCESO",
+        "href": "cambio_pwd.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "BAJA DEL SERVICIO",
+        "href": "baja_servicio.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "DATOS PERSONALES",
+        "href": "cv_completo.php?Pes=0",
+        "title": "Datos Personales",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "ESTUDIOS",
+        "href": "cv_completo.php?Pes=1",
+        "title": "Estudios",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "EXPERIENCIA",
+        "href": "cv_completo.php?Pes=2",
+        "title": "Experiencia",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU FUTURO",
+        "href": "cv_completo.php?Pes=3",
+        "title": "Futuro",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU DÍA A DÍA",
+        "href": "cv_completo.php?Pes=4",
+        "title": "Día a día",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONTACTO",
+        "href": "contacta.php",
+        "title": "Acceso al formulario de contacto",
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.w3.org/WAI/WCAG2AAA-Conformance",
+        "title": "Explanation of WCAG 2.0 Level Triple-A Conformance",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "COLABORAN CON NOSOTROS",
+        "href": "colaboradores.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Madrid\"",
+        "href": "http://es.jooble.org/trabajo/Madrid?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Barcelona\".",
+        "href": "http://es.jooble.org/trabajo/Barcelona?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      }
+    ],
+    "forms": [
+      {
+        "id": "acces",
+        "name": "frm_cv",
+        "action": "cv_completo.php?Pes=0",
+        "method": "POST",
+        "enctype": null,
+        "onsubmit": null,
+        "classes": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "idioma",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "cast",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "idpas",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "1",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "te_sub_form",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "0",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "continua",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "0",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "e3d27cd3889c6c02c04024390579853c",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "nombre_cand",
+            "id": "OTNombre",
+            "type": "text",
+            "placeholder": "Nombre",
+            "label": "NOMBRE",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "35",
+            "pattern": null,
+            "value": "César",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "apellidos_cand",
+            "id": "OTApellidos",
+            "type": "text",
+            "placeholder": "Apellidos",
+            "label": "*APELLIDOS:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "45",
+            "pattern": null,
+            "value": "Candidato",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "dia",
+            "id": "dia",
+            "type": "select",
+            "placeholder": null,
+            "label": "*FECHA DE NACIMIENTO:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": "construirfecha(document.getElementById('dia').selectedIndex,document.getElementById('mes').selectedIndex,document.getElementById('any').value);",
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "1",
+                "text": "1",
+                "selected": false
+              },
+              {
+                "value": "2",
+                "text": "2",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "3",
+                "selected": false
+              },
+              {
+                "value": "4",
+                "text": "4",
+                "selected": false
+              },
+              {
+                "value": "5",
+                "text": "5",
+                "selected": false
+              },
+              {
+                "value": "6",
+                "text": "6",
+                "selected": false
+              },
+              {
+                "value": "7",
+                "text": "7",
+                "selected": false
+              },
+              {
+                "value": "8",
+                "text": "8",
+                "selected": false
+              },
+              {
+                "value": "9",
+                "text": "9",
+                "selected": false
+              },
+              {
+                "value": "10",
+                "text": "10",
+                "selected": false
+              },
+              {
+                "value": "11",
+                "text": "11",
+                "selected": false
+              },
+              {
+                "value": "12",
+                "text": "12",
+                "selected": false
+              },
+              {
+                "value": "13",
+                "text": "13",
+                "selected": false
+              },
+              {
+                "value": "14",
+                "text": "14",
+                "selected": false
+              },
+              {
+                "value": "15",
+                "text": "15",
+                "selected": false
+              },
+              {
+                "value": "16",
+                "text": "16",
+                "selected": false
+              },
+              {
+                "value": "17",
+                "text": "17",
+                "selected": false
+              },
+              {
+                "value": "18",
+                "text": "18",
+                "selected": false
+              },
+              {
+                "value": "19",
+                "text": "19",
+                "selected": false
+              },
+              {
+                "value": "20",
+                "text": "20",
+                "selected": false
+              },
+              {
+                "value": "21",
+                "text": "21",
+                "selected": false
+              },
+              {
+                "value": "22",
+                "text": "22",
+                "selected": false
+              },
+              {
+                "value": "23",
+                "text": "23",
+                "selected": false
+              },
+              {
+                "value": "24",
+                "text": "24",
+                "selected": false
+              },
+              {
+                "value": "25",
+                "text": "25",
+                "selected": false
+              },
+              {
+                "value": "26",
+                "text": "26",
+                "selected": false
+              },
+              {
+                "value": "27",
+                "text": "27",
+                "selected": false
+              },
+              {
+                "value": "28",
+                "text": "28",
+                "selected": false
+              },
+              {
+                "value": "29",
+                "text": "29",
+                "selected": false
+              },
+              {
+                "value": "30",
+                "text": "30",
+                "selected": false
+              },
+              {
+                "value": "31",
+                "text": "31",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "SELECT",
+            "name": "mes",
+            "id": "mes",
+            "type": "select",
+            "placeholder": null,
+            "label": "",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": "rellenarfecha2('form1')",
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Enero",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "Febrero",
+                "selected": false
+              },
+              {
+                "value": "2",
+                "text": "Marzo",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "Abril",
+                "selected": false
+              },
+              {
+                "value": "4",
+                "text": "Mayo",
+                "selected": false
+              },
+              {
+                "value": "5",
+                "text": "Junio",
+                "selected": false
+              },
+              {
+                "value": "6",
+                "text": "Julio",
+                "selected": false
+              },
+              {
+                "value": "7",
+                "text": "Agosto",
+                "selected": false
+              },
+              {
+                "value": "8",
+                "text": "Septiembre",
+                "selected": false
+              },
+              {
+                "value": "9",
+                "text": "Octubre",
+                "selected": false
+              },
+              {
+                "value": "10",
+                "text": "Noviembre",
+                "selected": false
+              },
+              {
+                "value": "11",
+                "text": "Diciembre",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "SELECT",
+            "name": "any",
+            "id": "any",
+            "type": "select",
+            "placeholder": null,
+            "label": "",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": "construirfecha(document.getElementById('dia').selectedIndex,document.getElementById('mes').selectedIndex,document.getElementById('any').value);",
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "2008",
+                "text": "2008",
+                "selected": false
+              },
+              {
+                "value": "2007",
+                "text": "2007",
+                "selected": false
+              },
+              {
+                "value": "2006",
+                "text": "2006",
+                "selected": false
+              },
+              {
+                "value": "2005",
+                "text": "2005",
+                "selected": false
+              },
+              {
+                "value": "2004",
+                "text": "2004",
+                "selected": false
+              },
+              {
+                "value": "2003",
+                "text": "2003",
+                "selected": false
+              },
+              {
+                "value": "2002",
+                "text": "2002",
+                "selected": false
+              },
+              {
+                "value": "2001",
+                "text": "2001",
+                "selected": false
+              },
+              {
+                "value": "2000",
+                "text": "2000",
+                "selected": false
+              },
+              {
+                "value": "1999",
+                "text": "1999",
+                "selected": false
+              },
+              {
+                "value": "1998",
+                "text": "1998",
+                "selected": false
+              },
+              {
+                "value": "1997",
+                "text": "1997",
+                "selected": false
+              },
+              {
+                "value": "1996",
+                "text": "1996",
+                "selected": false
+              },
+              {
+                "value": "1995",
+                "text": "1995",
+                "selected": false
+              },
+              {
+                "value": "1994",
+                "text": "1994",
+                "selected": false
+              },
+              {
+                "value": "1993",
+                "text": "1993",
+                "selected": false
+              },
+              {
+                "value": "1992",
+                "text": "1992",
+                "selected": false
+              },
+              {
+                "value": "1991",
+                "text": "1991",
+                "selected": false
+              },
+              {
+                "value": "1990",
+                "text": "1990",
+                "selected": false
+              },
+              {
+                "value": "1989",
+                "text": "1989",
+                "selected": false
+              },
+              {
+                "value": "1988",
+                "text": "1988",
+                "selected": false
+              },
+              {
+                "value": "1987",
+                "text": "1987",
+                "selected": false
+              },
+              {
+                "value": "1986",
+                "text": "1986",
+                "selected": false
+              },
+              {
+                "value": "1985",
+                "text": "1985",
+                "selected": false
+              },
+              {
+                "value": "1984",
+                "text": "1984",
+                "selected": false
+              },
+              {
+                "value": "1983",
+                "text": "1983",
+                "selected": false
+              },
+              {
+                "value": "1982",
+                "text": "1982",
+                "selected": false
+              },
+              {
+                "value": "1981",
+                "text": "1981",
+                "selected": false
+              },
+              {
+                "value": "1980",
+                "text": "1980",
+                "selected": false
+              },
+              {
+                "value": "1979",
+                "text": "1979",
+                "selected": false
+              },
+              {
+                "value": "1978",
+                "text": "1978",
+                "selected": false
+              },
+              {
+                "value": "1977",
+                "text": "1977",
+                "selected": false
+              },
+              {
+                "value": "1976",
+                "text": "1976",
+                "selected": false
+              },
+              {
+                "value": "1975",
+                "text": "1975",
+                "selected": false
+              },
+              {
+                "value": "1974",
+                "text": "1974",
+                "selected": false
+              },
+              {
+                "value": "1973",
+                "text": "1973",
+                "selected": false
+              },
+              {
+                "value": "1972",
+                "text": "1972",
+                "selected": false
+              },
+              {
+                "value": "1971",
+                "text": "1971",
+                "selected": false
+              },
+              {
+                "value": "1970",
+                "text": "1970",
+                "selected": false
+              },
+              {
+                "value": "1969",
+                "text": "1969",
+                "selected": false
+              },
+              {
+                "value": "1968",
+                "text": "1968",
+                "selected": false
+              },
+              {
+                "value": "1967",
+                "text": "1967",
+                "selected": false
+              },
+              {
+                "value": "1966",
+                "text": "1966",
+                "selected": false
+              },
+              {
+                "value": "1965",
+                "text": "1965",
+                "selected": false
+              },
+              {
+                "value": "1964",
+                "text": "1964",
+                "selected": false
+              },
+              {
+                "value": "1963",
+                "text": "1963",
+                "selected": false
+              },
+              {
+                "value": "1962",
+                "text": "1962",
+                "selected": false
+              },
+              {
+                "value": "1961",
+                "text": "1961",
+                "selected": false
+              },
+              {
+                "value": "1960",
+                "text": "1960",
+                "selected": false
+              },
+              {
+                "value": "1959",
+                "text": "1959",
+                "selected": false
+              },
+              {
+                "value": "1958",
+                "text": "1958",
+                "selected": false
+              },
+              {
+                "value": "1957",
+                "text": "1957",
+                "selected": false
+              },
+              {
+                "value": "1956",
+                "text": "1956",
+                "selected": false
+              },
+              {
+                "value": "1955",
+                "text": "1955",
+                "selected": false
+              },
+              {
+                "value": "1954",
+                "text": "1954",
+                "selected": false
+              },
+              {
+                "value": "1953",
+                "text": "1953",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "INPUT",
+            "name": "DataNaci_cand",
+            "id": "ODNacimiento",
+            "type": "text",
+            "placeholder": null,
+            "label": "*FECHA DE NACIMIENTO:",
+            "required": false,
+            "readonly": false,
+            "disabled": true,
+            "maxlength": "11",
+            "pattern": null,
+            "value": "31-07-1990",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "IdDocIdentidad",
+            "id": "OCTipo_Documento",
+            "type": "select",
+            "placeholder": null,
+            "label": "*TIPO DOCUMENTO IDENTIDAD:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Documento...",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "NIF",
+                "selected": false
+              },
+              {
+                "value": "2",
+                "text": "NIE",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "Pasaporte",
+                "selected": true
+              }
+            ]
+          },
+          {
+            "tag": "INPUT",
+            "name": "direccion_cand",
+            "id": "OTDirección",
+            "type": "text",
+            "placeholder": null,
+            "label": "*DIRECCIÓN:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "75",
+            "pattern": null,
+            "value": "Juan B. Justo ",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "idProvincia",
+            "id": "OCProvincia",
+            "type": "select",
+            "placeholder": null,
+            "label": "*PROVINCIA:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Provincia...",
+                "selected": false
+              },
+              {
+                "value": "15",
+                "text": "A Coruña",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "Alacant",
+                "selected": false
+              },
+              {
+                "value": "2",
+                "text": "Albacete",
+                "selected": false
+              },
+              {
+                "value": "4",
+                "text": "Almeria",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "Araba",
+                "selected": false
+              },
+              {
+                "value": "33",
+                "text": "Asturias",
+                "selected": false
+              },
+              {
+                "value": "5",
+                "text": "Avila",
+                "selected": false
+              },
+              {
+                "value": "6",
+                "text": "Badajoz",
+                "selected": false
+              },
+              {
+                "value": "7",
+                "text": "Baleares",
+                "selected": false
+              },
+              {
+                "value": "8",
+                "text": "Barcelona",
+                "selected": true
+              },
+              {
+                "value": "48",
+                "text": "Bizkaia",
+                "selected": false
+              },
+              {
+                "value": "9",
+                "text": "Burgos",
+                "selected": false
+              },
+              {
+                "value": "10",
+                "text": "Caceres",
+                "selected": false
+              },
+              {
+                "value": "11",
+                "text": "Cadiz",
+                "selected": false
+              },
+              {
+                "value": "39",
+                "text": "Cantabria",
+                "selected": false
+              },
+              {
+                "value": "12",
+                "text": "Castello",
+                "selected": false
+              },
+              {
+                "value": "51",
+                "text": "Ceuta",
+                "selected": false
+              },
+              {
+                "value": "13",
+                "text": "Ciudad Real",
+                "selected": false
+              },
+              {
+                "value": "14",
+                "text": "Cordoba",
+                "selected": false
+              },
+              {
+                "value": "16",
+                "text": "Cuenca",
+                "selected": false
+              },
+              {
+                "value": "17",
+                "text": "Girona",
+                "selected": false
+              },
+              {
+                "value": "18",
+                "text": "Granada",
+                "selected": false
+              },
+              {
+                "value": "19",
+                "text": "Guadalajara",
+                "selected": false
+              },
+              {
+                "value": "20",
+                "text": "Guipuzkoa",
+                "selected": false
+              },
+              {
+                "value": "21",
+                "text": "Huelva",
+                "selected": false
+              },
+              {
+                "value": "22",
+                "text": "Huesca",
+                "selected": false
+              },
+              {
+                "value": "23",
+                "text": "Jaen",
+                "selected": false
+              },
+              {
+                "value": "26",
+                "text": "La Rioja",
+                "selected": false
+              },
+              {
+                "value": "35",
+                "text": "Las Palmas",
+                "selected": false
+              },
+              {
+                "value": "24",
+                "text": "Leon",
+                "selected": false
+              },
+              {
+                "value": "25",
+                "text": "Lleida",
+                "selected": false
+              },
+              {
+                "value": "27",
+                "text": "Lugo",
+                "selected": false
+              },
+              {
+                "value": "28",
+                "text": "Madrid",
+                "selected": false
+              },
+              {
+                "value": "29",
+                "text": "Malaga",
+                "selected": false
+              },
+              {
+                "value": "52",
+                "text": "Melilla",
+                "selected": false
+              },
+              {
+                "value": "30",
+                "text": "Murcia",
+                "selected": false
+              },
+              {
+                "value": "31",
+                "text": "Navarra",
+                "selected": false
+              },
+              {
+                "value": "32",
+                "text": "Ourense",
+                "selected": false
+              },
+              {
+                "value": "34",
+                "text": "Palencia",
+                "selected": false
+              },
+              {
+                "value": "36",
+                "text": "Pontevedra",
+                "selected": false
+              },
+              {
+                "value": "37",
+                "text": "Salamanca",
+                "selected": false
+              },
+              {
+                "value": "40",
+                "text": "Segovia",
+                "selected": false
+              },
+              {
+                "value": "41",
+                "text": "Sevilla",
+                "selected": false
+              },
+              {
+                "value": "53",
+                "text": "Sin especificar",
+                "selected": false
+              },
+              {
+                "value": "42",
+                "text": "Soria",
+                "selected": false
+              },
+              {
+                "value": "43",
+                "text": "Tarragona",
+                "selected": false
+              },
+              {
+                "value": "38",
+                "text": "Tenerife",
+                "selected": false
+              },
+              {
+                "value": "44",
+                "text": "Teruel",
+                "selected": false
+              },
+              {
+                "value": "45",
+                "text": "Toledo",
+                "selected": false
+              },
+              {
+                "value": "46",
+                "text": "Valencia",
+                "selected": false
+              },
+              {
+                "value": "47",
+                "text": "Valladolid",
+                "selected": false
+              },
+              {
+                "value": "49",
+                "text": "Zamora",
+                "selected": false
+              },
+              {
+                "value": "50",
+                "text": "Zaragoza",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "INPUT",
+            "name": "docIdentidad_cand",
+            "id": "OTDocumento",
+            "type": "text",
+            "placeholder": null,
+            "label": "*NÚMERO DOCUMENTO:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "15",
+            "pattern": null,
+            "value": "34286907",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "codiPostal_cand",
+            "id": "OTCP",
+            "type": "text",
+            "placeholder": null,
+            "label": "*CÓDIGO POSTAL:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "25",
+            "pattern": null,
+            "value": "2800",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "Poblacion",
+            "id": "OTPoblacion",
+            "type": "text",
+            "placeholder": null,
+            "label": "*POBLACIÓN:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "65",
+            "pattern": null,
+            "value": "poblacion",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "IdModoContacto",
+            "id": "OCContacto",
+            "type": "select",
+            "placeholder": null,
+            "label": "*MODO DE CONTACTO PREFERENTE:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Modo contacto...",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "Mail",
+                "selected": true
+              },
+              {
+                "value": "2",
+                "text": "Teléfono Móvil",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "Teléfono Fijo",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "INPUT",
+            "name": "TelfMovil_cand",
+            "id": "OTMovil",
+            "type": "text",
+            "placeholder": null,
+            "label": "*TELÉFONO CONTACTO:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "20",
+            "pattern": null,
+            "value": "+543815350632",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "TelfFijo_cand",
+            "id": "_TFijo",
+            "type": "text",
+            "placeholder": null,
+            "label": "SEGUNDO TELÉFONO CONTACTO:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "20",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "IdPermisoCond",
+            "id": "_CPermiso",
+            "type": "select",
+            "placeholder": null,
+            "label": "PERMISO DE CONDUCIR:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "0",
+                "text": "Permiso de conducir...",
+                "selected": false
+              },
+              {
+                "value": "1",
+                "text": "A1",
+                "selected": true
+              },
+              {
+                "value": "2",
+                "text": "A",
+                "selected": false
+              },
+              {
+                "value": "3",
+                "text": "B",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "INPUT",
+            "name": "autonomo_cand",
+            "id": "OBAutonomo",
+            "type": "radio",
+            "placeholder": null,
+            "label": "*¿ESTAS DADO DE ALTA COMO AUTÓNOMO?:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "1",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "autonomo_cand",
+            "id": "OBAutonomo",
+            "type": "radio",
+            "placeholder": null,
+            "label": "*¿ESTAS DADO DE ALTA COMO AUTÓNOMO?:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "-1",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "linkedin_cand",
+            "id": "_Tlinkedin",
+            "type": "text",
+            "placeholder": null,
+            "label": "LINKEDIN:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "500",
+            "pattern": null,
+            "value": "https://www.linkedin.com/in/cordobacesar29",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "vehiculo_cand",
+            "id": "OBVehiculo",
+            "type": "radio",
+            "placeholder": null,
+            "label": "*¿VEHÍCULO PROPIO?:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "1",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "vehiculo_cand",
+            "id": "OBVehiculo",
+            "type": "radio",
+            "placeholder": null,
+            "label": "*¿VEHÍCULO PROPIO?:",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "-1",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": null,
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": "return enviar();",
+            "classes": "btn-u btn-u-lg rounded",
+            "dataAttrs": {}
+          }
+        ],
+        "externalSubmitBtns": []
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "type": "button",
+        "name": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(true);return false;",
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle navigation",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "navbar-toggle",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "collapse",
+          "data-target": ".navbar-ex1-collapse"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Modificar",
+        "type": "button",
+        "name": null,
+        "onclick": "return enviar();",
+        "classes": "btn-u btn-u-lg rounded",
+        "href": null,
+        "dataAttrs": {}
+      }
+    ],
+    "inlineScripts": [],
+    "externalScripts": [
+      "includes/js/validaform.js",
+      "/includes/js/galetes.js",
+      "/assets/plugins/jquery-1.10.2.min.js",
+      "/assets/plugins/jquery-migrate-1.2.1.min.js",
+      "/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "/assets/plugins/flexslider/jquery.flexslider-min.js",
+      "/assets/plugins/bxslider/jquery.bxslider.js",
+      "/assets/plugins/back-to-top.js",
+      "/assets/plugins/jquery.parallax.js",
+      "/assets/plugins/image-hover/js/modernizr.js",
+      "/assets/plugins/image-hover/js/touch.js",
+      "/assets/js/chosen/chosen.jquery.min.js",
+      "/assets/js/app.js?v=1.0"
+    ],
+    "alerts": [],
+    "bodyClasses": ""
+  },
+  {
+    "url": "https://www.disjob.com/cambio_pwd.php",
+    "title": "disJob - El Portal de Empleo para Personas con disCapacidad - Cambio de contraseña",
+    "metaDesc": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad",
+    "metas": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad"
+      },
+      {
+        "name": "author",
+        "content": "disjob"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Datos Acceso"
+      }
+    ],
+    "navItems": [
+      {
+        "text": "",
+        "href": "home.php"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob"
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob"
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php"
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php"
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "#",
+        "title": null,
+        "target": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(false);return false;",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "aquí",
+        "href": "politica_cookies.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "HOLA CÉSAR!",
+        "href": "javascript:void(0);",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Cerrar sesión",
+        "href": "sortir.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "sortir",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "home.php",
+        "title": "Logo, pulsar para volver al inicio",
+        "target": null,
+        "onclick": null,
+        "classes": "navbar-brand",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692",
+        "title": "Enlace Facebook Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob",
+        "title": "Enlace Twitter Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob",
+        "title": "Enlace Linkedin Disjob",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas_cand.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TUS CANDIDATURAS",
+        "href": "candidaturas.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "TU CURRICULUM",
+        "href": "cv_completo.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "DATOS ACCESO",
+        "href": "cambio_pwd.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "BAJA DEL SERVICIO",
+        "href": "baja_servicio.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONTACTO",
+        "href": "contacta.php",
+        "title": "Acceso al formulario de contacto",
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.w3.org/WAI/WCAG2AAA-Conformance",
+        "title": "Explanation of WCAG 2.0 Level Triple-A Conformance",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "COLABORAN CON NOSOTROS",
+        "href": "colaboradores.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Madrid\"",
+        "href": "http://es.jooble.org/trabajo/Madrid?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Barcelona\".",
+        "href": "http://es.jooble.org/trabajo/Barcelona?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      }
+    ],
+    "forms": [
+      {
+        "id": "acces",
+        "name": "cambio_pwd",
+        "action": "cambio_pwd.php",
+        "method": "POST",
+        "enctype": null,
+        "onsubmit": null,
+        "classes": "margin-bottom-40",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "idioma",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "cast",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "02b8d0b8b100acbe6f01727a1a892a80",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "mail_usu",
+            "id": "OECorreo",
+            "type": "text",
+            "placeholder": null,
+            "label": "*CORREO ELECTRÓNICO",
+            "required": false,
+            "readonly": false,
+            "disabled": true,
+            "maxlength": "164",
+            "pattern": null,
+            "value": "cesar.cordoba.gtc@gmail.com",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "nou_pwd",
+            "id": "OTContraseña",
+            "type": "password",
+            "placeholder": null,
+            "label": "*NUEVA CONTRASEÑA",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "30",
+            "pattern": null,
+            "value": "***",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "re_nou_pwd",
+            "id": "OTContraseña",
+            "type": "password",
+            "placeholder": null,
+            "label": "*NUEVA CONTRASEÑA",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "30",
+            "pattern": null,
+            "value": "***",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": "bt_cambio",
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": "javascript:prevalidar();",
+            "classes": "btn-u btn-u-lg rounded",
+            "dataAttrs": {}
+          }
+        ],
+        "externalSubmitBtns": []
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "type": "button",
+        "name": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(true);return false;",
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle navigation",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "navbar-toggle",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "collapse",
+          "data-target": ".navbar-ex1-collapse"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Cambiar",
+        "type": "button",
+        "name": "bt_cambio",
+        "onclick": "javascript:prevalidar();",
+        "classes": "btn-u btn-u-lg rounded",
+        "href": null,
+        "dataAttrs": {}
+      }
+    ],
+    "inlineScripts": [],
+    "externalScripts": [
+      "includes/js/validaform.js",
+      "/includes/js/galetes.js",
+      "/assets/plugins/jquery-1.10.2.min.js",
+      "/assets/plugins/jquery-migrate-1.2.1.min.js",
+      "/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "/assets/plugins/flexslider/jquery.flexslider-min.js",
+      "/assets/plugins/bxslider/jquery.bxslider.js",
+      "/assets/plugins/back-to-top.js",
+      "/assets/plugins/jquery.parallax.js",
+      "/assets/plugins/image-hover/js/modernizr.js",
+      "/assets/plugins/image-hover/js/touch.js",
+      "/assets/js/chosen/chosen.jquery.min.js",
+      "/assets/js/app.js?v=1.0"
+    ],
+    "alerts": [],
+    "bodyClasses": ""
+  },
+  {
+    "url": "https://www.disjob.com/contacta.php",
+    "title": "disJob - El Portal de Empleo para Personas con disCapacidad - Contacta",
+    "metaDesc": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad",
+    "metas": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "Portal de Empleo Líder para Personas con disCapacidad. EMPRESAS: Tus Procesos de Selección 100% Inclusivos - Mejora de tu RSE y RRHH - Ley 11/2018 de Información no Financiera y Diversidad"
+      },
+      {
+        "name": "author",
+        "content": "disjob"
+      },
+      {
+        "name": "referrer",
+        "content": "origin"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "H3",
+        "text": "Ya soy candidato:"
+      },
+      {
+        "tag": "H3",
+        "text": "No soy candidato:"
+      },
+      {
+        "tag": "H1",
+        "text": "Contacta con nosotros"
+      },
+      {
+        "tag": "H3",
+        "text": "Información sobre protección de datos"
+      }
+    ],
+    "navItems": [
+      {
+        "text": "",
+        "href": "home.php"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob"
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob"
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas.php"
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php"
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "#",
+        "title": null,
+        "target": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(false);return false;",
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "aquí",
+        "href": "politica_cookies.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "ACCESO EMPRESA",
+        "href": "https://empresas.disjob.com",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "home.php",
+        "title": "Logo, pulsar para volver al inicio",
+        "target": null,
+        "onclick": null,
+        "classes": "navbar-brand",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/pages/disJobcom/103709723080692",
+        "title": "Enlace Facebook Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/disJob",
+        "title": "Enlace Twitter Disjob",
+        "target": "_blank",
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "http://www.linkedin.com/company/disjob",
+        "title": "Enlace Linkedin Disjob",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "OFERTAS",
+        "href": "/ofertas.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "NOTÍCIAS",
+        "href": "/noticias.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONÓCENOS",
+        "href": "/quienes_somos.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "¿Has olvidado tu contraseña?",
+        "href": "../recordatorio.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Date de alta",
+        "href": "unete.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "btn-u btn-u-primary",
+        "dataAttrs": {}
+      },
+      {
+        "text": "+ info",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "+ info",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "+ info",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "+ info",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "+ info",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "+ info",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "Política de Privacidad",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "CONTACTO",
+        "href": "contacta.php",
+        "title": "Acceso al formulario de contacto",
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "href": "politica_privacidad.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "",
+        "href": "https://www.w3.org/WAI/WCAG2AAA-Conformance",
+        "title": "Explanation of WCAG 2.0 Level Triple-A Conformance",
+        "target": null,
+        "onclick": null,
+        "classes": "",
+        "dataAttrs": {}
+      },
+      {
+        "text": "COLABORAN CON NOSOTROS",
+        "href": "colaboradores.php",
+        "title": null,
+        "target": null,
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Madrid\"",
+        "href": "http://es.jooble.org/trabajo/Madrid?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      },
+      {
+        "text": "\"Empleo en Barcelona\".",
+        "href": "http://es.jooble.org/trabajo/Barcelona?main",
+        "title": null,
+        "target": "_blank",
+        "onclick": null,
+        "classes": "blanc",
+        "dataAttrs": {}
+      }
+    ],
+    "forms": [
+      {
+        "id": "accescandi",
+        "name": null,
+        "action": "home.php",
+        "method": "POST",
+        "enctype": null,
+        "onsubmit": null,
+        "classes": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "idioma",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "cast",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "formulari",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "candidat",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "09b49d8b19b6879938c90560cf70f5fe",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": null,
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "close",
+            "dataAttrs": {
+              "data-dismiss": "modal"
+            }
+          },
+          {
+            "tag": "INPUT",
+            "name": "Usu_Acces",
+            "id": "OTUsuarioCandidato",
+            "type": "email",
+            "placeholder": null,
+            "label": "Usuario (Email)",
+            "required": true,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "164",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "Pwd_Acces",
+            "id": "OTPasswordCandidato",
+            "type": "password",
+            "placeholder": null,
+            "label": "Contraseña",
+            "required": true,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "250",
+            "pattern": null,
+            "value": "***",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": "bt_candidat",
+            "id": null,
+            "type": "submit",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "btn-u btn-u-primary",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": null,
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "btn-u btn-u-default",
+            "dataAttrs": {
+              "data-dismiss": "modal"
+            }
+          }
+        ],
+        "externalSubmitBtns": []
+      },
+      {
+        "id": "informacion",
+        "name": "informacion",
+        "action": "contacta.php",
+        "method": "POST",
+        "enctype": "multipart/form-data",
+        "onsubmit": null,
+        "classes": "margin-bottom-40",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "name": "idioma",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "cast",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "urlrespostaok",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "http://www.disjob.com/contacta.php?err=0",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "urlrespostako",
+            "id": null,
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "http://www.disjob.com/contacta.php?err=1",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "mailtoinici",
+            "id": "mailtoinici",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "mailtodom",
+            "id": "mailtodom",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "mailfrom",
+            "id": "mailfrom",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "ompleaixo",
+            "id": "ompleaixo",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "token",
+            "id": "token",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "09b49d8b19b6879938c90560cf70f5fe",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "subject",
+            "id": "subject",
+            "type": "hidden",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "Solicitud de información",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "asunto",
+            "id": "OTAsunto",
+            "type": "text",
+            "placeholder": "Asunto",
+            "label": "Asunto",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "164",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "nombre",
+            "id": "OTNombre",
+            "type": "text",
+            "placeholder": "Tu nombre",
+            "label": "Tu nombre",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "35",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "mail_usuario",
+            "id": "OECorreo",
+            "type": "text",
+            "placeholder": "Tu correo electrónico",
+            "label": "Tu correo electrónico",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "164",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "telefono",
+            "id": "OFTelefono",
+            "type": "text",
+            "placeholder": "Tu teléfono",
+            "label": "Teléfono",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": "164",
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "SELECT",
+            "name": "categorias",
+            "id": "OCCategorias",
+            "type": "select",
+            "placeholder": "Categorias",
+            "label": "Categorias",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": "javascript:tipoContacto(document.informacion.categorias.value);",
+            "classes": "form-control rounded",
+            "dataAttrs": {},
+            "options": [
+              {
+                "value": "Categorias ...",
+                "text": "Categorias ...",
+                "selected": false
+              },
+              {
+                "value": "info",
+                "text": "Información general",
+                "selected": false
+              },
+              {
+                "value": "empresas",
+                "text": "Departamento Empresas",
+                "selected": false
+              },
+              {
+                "value": "candidatos",
+                "text": "Departamento Candidatos",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "tag": "TEXTAREA",
+            "name": "Tu Mensaje",
+            "id": "OTMensaje",
+            "type": "text",
+            "placeholder": "tu mensaje",
+            "label": "Tu mensaje",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "form-control rounded",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "INPUT",
+            "name": "conformidad",
+            "id": "OBConformidad",
+            "type": "checkbox",
+            "placeholder": null,
+            "label": "ACEPTO LA POLÍTICA DE PRIVACIDAD",
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": null,
+            "classes": "",
+            "dataAttrs": {}
+          },
+          {
+            "tag": "BUTTON",
+            "name": "bt_experiencia",
+            "id": null,
+            "type": "button",
+            "placeholder": null,
+            "label": null,
+            "required": false,
+            "readonly": false,
+            "disabled": false,
+            "maxlength": null,
+            "pattern": null,
+            "value": "",
+            "onchange": null,
+            "onclick": "javascript:enviar_formulari_contacte();",
+            "classes": "btn-u btn-u-lg rounded",
+            "dataAttrs": {}
+          }
+        ],
+        "externalSubmitBtns": []
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "type": "button",
+        "name": null,
+        "onclick": "emmagatzemarPreferenciesGaletes(true);return false;",
+        "classes": "btn-u btn-u-sm btn-default rounded",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "ACCESO CANDIDATOS",
+        "type": null,
+        "name": null,
+        "onclick": null,
+        "classes": "btn-u btn-u-sm btn-u-orange rounded",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "modal",
+          "data-target": "#responsive"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle navigation",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "navbar-toggle",
+        "href": null,
+        "dataAttrs": {
+          "data-toggle": "collapse",
+          "data-target": ".navbar-ex1-collapse"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "×",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "close",
+        "href": null,
+        "dataAttrs": {
+          "data-dismiss": "modal"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Acceder",
+        "type": "submit",
+        "name": "bt_candidat",
+        "onclick": null,
+        "classes": "btn-u btn-u-primary",
+        "href": null,
+        "dataAttrs": {}
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Cerrar",
+        "type": "button",
+        "name": null,
+        "onclick": null,
+        "classes": "btn-u btn-u-default",
+        "href": null,
+        "dataAttrs": {
+          "data-dismiss": "modal"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Contacta",
+        "type": "button",
+        "name": "bt_experiencia",
+        "onclick": "javascript:enviar_formulari_contacte();",
+        "classes": "btn-u btn-u-lg rounded",
+        "href": null,
+        "dataAttrs": {}
+      }
+    ],
+    "inlineScripts": [],
+    "externalScripts": [
+      "includes/js/validaform.js",
+      "/includes/js/galetes.js",
+      "/assets/plugins/jquery-1.10.2.min.js",
+      "/assets/plugins/jquery-migrate-1.2.1.min.js",
+      "/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "/assets/plugins/flexslider/jquery.flexslider-min.js",
+      "/assets/plugins/bxslider/jquery.bxslider.js",
+      "/assets/plugins/back-to-top.js",
+      "/assets/plugins/jquery.parallax.js",
+      "/assets/plugins/image-hover/js/modernizr.js",
+      "/assets/plugins/image-hover/js/touch.js",
+      "/assets/js/chosen/chosen.jquery.min.js",
+      "/assets/js/app.js?v=1.0"
+    ],
+    "alerts": [],
+    "bodyClasses": "header-fixed"
+  },
+  {
+    "url": "https://www.disjob.com/noticias.php",
+    "error": "Navigating frame was detached",
+    "timestamp": "2026-06-09T14:55:47.292Z"
+  },
+  {
+    "url": "https://www.disjob.com/quienes_somos.php",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.292Z"
+  },
+  {
+    "url": "https://www.disjob.com/politica_privacidad.php",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.293Z"
+  },
+  {
+    "url": "https://www.disjob.com/politica_cookies.php",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.293Z"
+  },
+  {
+    "url": "https://www.disjob.com/recordatorio.php",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.293Z"
+  },
+  {
+    "url": "https://www.disjob.com/unete.php",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.293Z"
+  },
+  {
+    "url": "https://www.disjob.com/ofertas.php",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.293Z"
+  },
+  {
+    "url": "https://www.disjob.com/includes/funcions/download_cv.php?i=FJIJKG",
+    "error": "Attempted to use detached Frame 'A0C15F2410EEBB4D0C123DA166C038CD'.",
+    "timestamp": "2026-06-09T14:55:47.294Z"
+  }
+]
