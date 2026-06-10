@@ -7,11 +7,16 @@ const readline = require('readline');
 const OUTPUT_DIR = './disjob_output';
 const BASE_URL   = 'https://www.disjob.com/home.php';
 const SAVE_INTERVAL_MS = 5000; // Guardado automático cada 5 segundos
+const NAVIGATION_TIMEOUT_MS = 120000;
 
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const timestamp = () => new Date().toISOString();
 const log = (msg) => console.log(`[${new Date().toLocaleTimeString()}] ${msg}`);
+
+function isBrowserConnected(browser) {
+  return Boolean(browser && typeof browser.isConnected === 'function' && browser.isConnected());
+}
 
 function ensureOutputDir() {
   if (!fs.existsSync(OUTPUT_DIR)) {
@@ -183,7 +188,18 @@ function saveData(networkTraffic, navigationLog) {
 
     // ── Navegar a la home de Disjob ──────────────────────────────────────────
     log(`🌐 Abriendo ${BASE_URL}...`);
-    await page.goto(BASE_URL, { waitUntil: 'networkidle2', timeout: 30000 });
+    try {
+      await page.goto(BASE_URL, {
+        waitUntil: 'domcontentloaded',
+        timeout: NAVIGATION_TIMEOUT_MS
+      });
+    } catch (error) {
+      log('⚠️ La carga inicial tardó más de lo esperado; reintentando con una estrategia más flexible...');
+      await page.goto(BASE_URL, {
+        waitUntil: 'load',
+        timeout: NAVIGATION_TIMEOUT_MS
+      });
+    }
 
     // ── Instrucciones en consola ─────────────────────────────────────────────
     console.log('\n' + '═'.repeat(60));
@@ -282,7 +298,7 @@ function saveData(networkTraffic, navigationLog) {
       console.log(`  Archivos guardados en         : ${path.resolve(OUTPUT_DIR)}`);
       console.log('═'.repeat(60));
 
-      if (closeBrowser && browser?.isConnected()) {
+      if (closeBrowser && isBrowserConnected(browser)) {
         await browser.close();
       }
 
@@ -297,7 +313,9 @@ function saveData(networkTraffic, navigationLog) {
 
   } catch (error) {
     console.error('❌ Error fatal:', error);
-    if (browser?.isConnected()) await browser.close();
+    if (isBrowserConnected(browser)) {
+      await browser.close();
+    }
     process.exit(1);
   }
 })();
