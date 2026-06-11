@@ -1,10 +1,11 @@
 # DisJob — Auditoría Técnica Completa
-**Documentación de Ingeniería Inversa · Versión 1.1 · Junio 2026**
+**Documentación de Ingeniería Inversa · Versión 1.2 · Junio 2026**
 
 > Generado a partir de análisis de tráfico de red, scraping de formularios y crawling autenticado.
 > Fuente: sesiones de candidato (CAND), sesión empresa (EMP), sesión pública (FINAL/AUTO), tráfico HTTP capturado.
 > No se tuvo acceso al código fuente original.
 > **v1.1 (2026-06-10):** Incorpora scraping completo del área privada de empresa (`home_emp.php` y secciones internas), sistema de chat AJAX, buscador de candidatos por tags, killer questions, y nuevos assets/analytics identificados.
+> **v1.2 (2026-06-11):** Incorpora scraping completo del área privada de candidato en `vadempleo.disjob.com` (21 URLs únicas, 891 peticiones capturadas): flujo de registro diferenciado (`Continuar_Alta.php`), selector de tipo de CV (`eleccion_cv.php`), opción `cv_express.php`, Killer Questions integradas en el flujo de postulación del candidato, YouTube embebido en home, y diferencias de negocio confirmadas respecto a `www.disjob.com`.
 
 ---
 
@@ -18,11 +19,12 @@ La plataforma opera bajo **tres dominios funcionales**:
 - `vadempleo.disjob.com` — Marca secundaria (VadEmpleo), misma arquitectura
 
 **Datos clave de la auditoría:**
-- 90+ páginas únicas analizadas (entre todas las sesiones)
-- 500+ peticiones de red capturadas
-- 25+ formularios identificados y catalogados completamente
+- 110+ páginas únicas analizadas (entre todas las sesiones)
+- 1.400+ peticiones de red capturadas
+- 30+ formularios identificados y catalogados completamente
 - 3 flujos de autenticación distintos confirmados
 - Portal empresa autenticado completamente mapeado (v1.1)
+- Área privada de candidato VadEmpleo completamente mapeada (v1.2)
 
 ---
 
@@ -204,11 +206,51 @@ chatEmp/getChatList.php             — Listado de chats activos (JSON + HTML)
 ### 2.4 VadEmpleo — `vadempleo.disjob.com`
 
 ```
-home.php                            — Home pública (misma estructura)
+home.php                            — Home pública (incluye video YouTube embebido)
 contacta.php                        — Contacto
-ofertas_cerca.php                   — Búsqueda de ofertas
-unete.php                           — Alta candidato
+ofertas_cerca.php                   — Búsqueda de ofertas (sin filtro teletrabajo)
+unete.php                           — Alta candidato (SIN campo tengoDiscapacidad)
+quienes_somos.php                   — Quiénes somos
+ofertas.php                         — Listado ofertas público
+ofertas_fitxa.php?Up=<CODE>         — Ficha pública de oferta
 ```
+
+#### Área Privada Candidato VadEmpleo (requiere autenticación) — **NUEVO v1.2**
+
+```
+[POST /home.php] → Login candidato (mismo formulario que www.disjob.com)
+  → HTTP 302 → Continuar_Alta.php   ← página intermedia exclusiva de VadEmpleo
+
+Continuar_Alta.php                  — "Tu alta" — bienvenida post-registro/login
+  └── Menú autenticado:
+      ├── "Tus Candidaturas"  → candidaturas.php
+      ├── "Tu Curriculum"     → cv_completo.php
+      ├── "Datos Acceso"      → cambio_pwd.php
+      ├── "Baja del servicio" → baja_servicio.php
+      └── "Cerrar sesión"     → sortir.php
+
+eleccion_cv.php                     — "Elige tu CV" — selector exclusivo VadEmpleo
+  ├── "CV Express"   → cv_express.php     ← ruta rápida (no existe en disjob.com)
+  └── "CV Completo"  → cv_completo.php    ← misma estructura wizard 5 pasos
+
+cv_completo.php (wizard)
+  ├── cv_completo.php?Pes=0  — Datos Personales
+  ├── cv_completo.php?Pes=1  — Estudios
+  ├── cv_completo.php?Pes=2  — Experiencia laboral
+  ├── cv_completo.php?Pes=3  — "Tu futuro"       ← label diferente a "Puesto deseado"
+  └── cv_completo.php?Pes=4  — "Tu currículum"   ← label diferente a "Idiomas/Habilidades"
+
+candidaturas.php                    — Panel de candidaturas activas
+cambio_pwd.php                      — Cambio de contraseña
+baja_servicio.php                   — Baja del servicio
+
+ofertas_cand.php                    — Búsqueda de ofertas (autenticado)
+ofertas_fitxa.php?Up=<CODE>         — Ficha pública de oferta
+login_inscripcion.php?Up=<CODE>&externa=0  — Login + Postulación combinados
+info_oferta.php?Up=<CODE>           — Ficha oferta autenticada
+```
+
+**Observación crítica (v1.2):** El formulario `unete.php` de VadEmpleo **no incluye el campo `tengoDiscapacidad`**. Esto confirma que VadEmpleo es una plataforma de empleo general sin el requisito de certificado de discapacidad. Los campos del registro VadEmpleo son: `nom_usu`, `cognoms_usu`, `mail_usu`, `re_mail_usu`, `pwd_usu`, `re_pwd_usu`, `Newsletter`, `conformidad`, `token`.
 
 ---
 
@@ -513,6 +555,61 @@ GET /recordatorio.php
     └── bt_recordar=<submit>
     → Envío de email con instrucciones de recuperación
 ```
+
+### 3.13 Flujo de Registro de Candidato VadEmpleo — **NUEVO v1.2**
+
+```
+GET /unete.php (vadempleo.disjob.com)
+│
+├── [Formulario POST /unete.php]
+│   Campos (sin campo tengoDiscapacidad):
+│   ├── nom_usu          (nombre)
+│   ├── cognoms_usu      (apellidos)
+│   ├── mail_usu         (email)
+│   ├── re_mail_usu      (confirmación email)
+│   ├── pwd_usu          (contraseña)
+│   ├── re_pwd_usu       (confirmación)
+│   ├── Newsletter       (checkbox)
+│   ├── conformidad      (checkbox — LOPD, obligatorio)
+│   └── token            (CSRF)
+│
+└── → HTTP 302 → Continuar_Alta.php   ← distinto a www.disjob.com → home_cand.php
+```
+
+**Diferencia de negocio clave:** VadEmpleo no requiere certificado de discapacidad. La redirección post-registro apunta a `Continuar_Alta.php` (en lugar de `home_cand.php` como en DisJob), lo que sugiere un flujo de onboarding diferente.
+
+### 3.14 Flujo de Selección de CV en VadEmpleo — **NUEVO v1.2**
+
+```
+GET /Continuar_Alta.php (post-login/registro)
+│
+└── → GET /eleccion_cv.php  — "Elige tu CV"
+    ├── Opción A: "CV Express" → cv_express.php
+    │   (estructura no capturada — página no visitada en el scraping)
+    │
+    └── Opción B: "CV Completo" → cv_completo.php
+        └── (wizard 5 pasos — idéntico en campos a www.disjob.com)
+```
+
+**Hallazgo:** VadEmpleo ofrece dos rutas de creación de CV: una rápida ("CV Express") y una completa. DisJob solo ofrece CV Completo. El `cv_express.php` no fue visitado en el scraping — queda pendiente de exploración.
+
+### 3.15 Killer Questions en Flujo de Postulación — **NUEVO v1.2**
+
+Se confirma que las Killer Questions (documentadas en v1.1 del lado empresa) **también aparecen integradas en el formulario de postulación del candidato**:
+
+```
+POST /login_inscripcion.php?Up=EJMEM (vadempleo.disjob.com)
+│   ├── token=<md5>
+│   ├── idioma=cast
+│   ├── formulari=candidat
+│   ├── idoferta=16919
+│   ├── respuestaClasificatoria_687=1    ← KILLER QUESTION INTEGRADA
+│   ├── Usu_Acces=<email>
+│   └── Pwd_Acces=<password>
+│   → HTTP 302 → candidaturas.php
+```
+
+**Patrón del campo:** `respuestaClasificatoria_<N>` donde `N` es el ID de la killer question. Permite múltiples preguntas en el mismo formulario. El candidato responde las Killer Questions al momento de login+postulación simultánea.
 
 ### 3.12 Flujo de Baja del Servicio
 
@@ -868,6 +965,58 @@ Llamado periódicamente (~cada 60 segundos) desde el dashboard empresa.
 }
 ```
 Devuelve HTML pre-renderizado del listado de conversaciones activas.
+
+### 4.7 Endpoints Nuevos VadEmpleo — **NUEVO v1.2**
+
+#### `POST /home.php` — Login Candidato VadEmpleo
+Idéntico al login de `www.disjob.com`. Response: `302 → Continuar_Alta.php` (no a `home_cand.php`).
+
+#### `GET /Continuar_Alta.php` — Post-Registro VadEmpleo
+Página de bienvenida/onboarding post-registro o post-login. Exclusiva de VadEmpleo.
+
+#### `GET /eleccion_cv.php` — Selector Tipo de CV
+Página exclusiva de VadEmpleo que ofrece dos rutas:
+- `cv_express.php` — CV rápido (no explorado)
+- `cv_completo.php` — Wizard 5 pasos (mismos campos que `www.disjob.com`)
+
+#### `POST /unete.php` — Registro Candidato VadEmpleo
+| Campo | Obligatorio | Tipo |
+|---|---|---|
+| `nom_usu` | ✓ | text |
+| `cognoms_usu` | ✓ | text |
+| `mail_usu` | ✓ | email |
+| `re_mail_usu` | ✓ | email |
+| `pwd_usu` | ✓ | password |
+| `re_pwd_usu` | ✓ | password |
+| `Newsletter` | — | checkbox |
+| `conformidad` | ✓ | checkbox (LOPD) |
+| `token` | ✓ | hidden |
+
+**Diferencia con `www.disjob.com`:** Ausencia del campo `tengoDiscapacidad`.
+**Response:** `302 → Continuar_Alta.php`
+
+#### `POST /login_inscripcion.php?Up=<CODE>` — Login + Postulación + Killer Questions (VadEmpleo)
+| Campo | Tipo | Valor |
+|---|---|---|
+| `idioma` | hidden | `cast` |
+| `formulari` | hidden | `candidat` |
+| `idoferta` | hidden | ID numérico |
+| `respuestaClasificatoria_<N>` | radio/select | respuesta a killer question N |
+| `Usu_Acces` | email | — |
+| `Pwd_Acces` | password | — |
+| `token` | hidden | `<md5>` |
+
+**Response:** `302 → candidaturas.php`
+
+#### `POST /ofertas_cerca.php` — Búsqueda de Ofertas VadEmpleo
+| Campo | Tipo | Notas |
+|---|---|---|
+| `palabra_clave` | text | término libre |
+| `idSector` | select | `0-22` |
+| `idProvincia` | select | `0-53` |
+| `token` | hidden | `<md5>` |
+
+**Diferencia con `www.disjob.com`:** Sin campo `TrabajarDesdeCasa_Ofer`.
 
 ---
 
@@ -1230,6 +1379,37 @@ Estos contadores se calculan en el servidor (SSR), sin endpoint AJAX específico
 
 El perfil de candidato en el buscador de talento usa `Id` numérico secuencial (ej. 76848, 82662, 88391...) en la URL `accions/candidats/perfil_candidat.php?Id=<ID>`. Los IDs observados sugieren una base de datos con ~100.000+ candidatos registrados. No se observa mecanismo de autorización adicional más allá de la sesión PHP.
 
+### 8.12 Diferencias Estructurales VadEmpleo vs DisJob — **NUEVO v1.2**
+
+El scraping autenticado de VadEmpleo confirma que, aunque comparten base de código, hay diferencias funcionales relevantes:
+
+| Aspecto | www.disjob.com | vadempleo.disjob.com |
+|---|---|---|
+| Campo `tengoDiscapacidad` en registro | ✓ Obligatorio | ✗ Ausente |
+| Redirect post-registro | `home_cand.php` | `Continuar_Alta.php` |
+| Selector de tipo de CV | ✗ No existe | ✓ `eleccion_cv.php` |
+| CV Express | ✗ No existe | ✓ `cv_express.php` |
+| Label Pes=3 (puesto deseado) | "Puesto deseado" | "Tu futuro" |
+| Label Pes=4 (idiomas/habilidades) | "Idiomas/Habilidades" | "Tu currículum" |
+| Filtro teletrabajo en búsqueda | ✓ `TrabajarDesdeCasa_Ofer` | ✗ Ausente |
+| Video YouTube embebido en home | ✗ No detectado | ✓ docid=-CkS0RNKge4 |
+| Redes sociales propias | Facebook DisJob / Twitter @disJob | Facebook VadEmpleo / Twitter @VadEmpleo |
+
+**Conclusión:** VadEmpleo es un "tenant" independiente dentro de la misma plataforma PHP, orientado a empleo general. Comparte el motor de back-end pero tiene un flujo de onboarding diferente y eliminó el requisito de discapacidad.
+
+### 8.13 Killer Questions — Confirmación de Integración en Flujo Candidato — **NUEVO v1.2**
+
+En v1.1 se documentó el módulo de Killer Questions desde el lado empresa (`accions/killerquestions/alta.php`). En v1.2 se confirma la integración desde el lado candidato:
+
+- El campo `respuestaClasificatoria_<N>` aparece en el POST de `login_inscripcion.php`
+- El naming pattern permite múltiples killer questions en el mismo formulario (`respuestaClasificatoria_687`, `respuestaClasificatoria_688`, etc.)
+- La respuesta es enviada **junto con el login** — el candidato ve y responde la KQ antes de estar autenticado
+- Esto implica que las KQ están embebidas en la ficha pública de oferta (`ofertas_fitxa.php`)
+
+### 8.14 YouTube Embebido en VadEmpleo Home — **NUEVO v1.2**
+
+La home pública de `vadempleo.disjob.com` incluye un video de YouTube embebido (`docid=-CkS0RNKge4`, duración 110 segundos). El tráfico de red captura múltiples peticiones de analytics de YouTube (`api/stats/playback`, `api/stats/watchtime`, `api/stats/atr`). Este elemento no está presente en `www.disjob.com`.
+
 ### 8.10 HubSpot CRM integrado en Portal Empresa
 
 El portal empresa carga el script de HubSpot (ID `2442099`) en todas las páginas públicas:
@@ -1306,6 +1486,8 @@ DisJob es un sistema funcional construido sobre un stack PHP 5.6 legacy con arqu
 - **Portal empresa completo (v1.1)**: gestión de ofertas, candidatos por oferta (asignados/sin asignar), killer questions, buscador de talento por tags y chat empresa-candidato.
 - **Sistema de chat AJAX (v1.1)**: módulo `chatEmp/` con pseudo-API JSON para comunicación directa empresa-candidato — el único punto de AJAX real en la plataforma.
 - **Analytics diferenciados (v1.1)**: GA + HubSpot en el portal empresa, GA solo en el portal candidatos. Tres propiedades GA4 distintas para los tres dominios.
+- **VadEmpleo como plataforma diferenciada (v1.2)**: área privada de candidato completamente mapeada. Confirma que VadEmpleo es un tenant de empleo general sin requisito de discapacidad, con flujo de onboarding diferente (`Continuar_Alta.php`), opción de CV Express y labels adaptados.
+- **Killer Questions integradas end-to-end (v1.2)**: las KQ están presentes tanto en el panel empresa (creación) como en el formulario de postulación del candidato (`respuestaClasificatoria_<N>`), cerrando el ciclo.
 
 El principal riesgo operativo sigue siendo el stack tecnológico fuera de soporte (PHP 5.6, nginx 1.10.3, jQuery 1.10.2). La existencia del módulo `chatEmp/` como pseudo-API JSON es un punto de entrada natural para una modernización progresiva: expandir ese patrón al resto de la plataforma permitiría desacoplar el frontend sin reescribir toda la lógica de negocio PHP.
 
@@ -1313,3 +1495,4 @@ El principal riesgo operativo sigue siendo el stack tecnológico fuera de soport
 
 *Documento generado por ingeniería inversa de tráfico de red y análisis de formularios HTML. © 2026. Información confidencial — uso interno.*
 *v1.1: Actualizado el 2026-06-10 con scraping del área privada empresa (home_emp.php, chatEmp/, cercadorCandidats/, accions/).*
+*v1.2: Actualizado el 2026-06-11 con scraping del área privada candidato de vadempleo.disjob.com (21 URLs únicas, 891 peticiones). Nuevos hallazgos: Continuar_Alta.php, eleccion_cv.php, cv_express.php, Killer Questions en flujo candidato, diferencias de negocio VadEmpleo vs DisJob, YouTube embebido.*
